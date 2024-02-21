@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item {
+    max-width: 200px;
+}
+.box { 
+    width: 249px;
+    height: 383px;
+    background-color:#D9D9D9;  
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    max-width: 900px;
+    margin: 50px auto;
+}
+.text{
+    width: 249px;
+        height: 383px;
+        padding: 30px;
+}
+.text_2{
+    width: 249px;
+    height: 383px;
+    position: absolute;
+    bottom: -400px;
+    left: 450px;
+    margin: 150px;
+}

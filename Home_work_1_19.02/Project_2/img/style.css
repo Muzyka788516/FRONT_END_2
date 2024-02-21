@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.item{
+    width: 360px;
+    height: 512px ;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 100px 100px; 
+}
+a{
+    text-decoration: none;
+}
+
+
+/* псевдокласс чтоб ссылка подчеркивалась при наведении */
+a:hover{
+    text-decoration: underline;
+}
+.text{
+    padding: 100px 40px ;      
+}
+p{
+    text-align: center;    
+}
+
+
+/* первые два красных круга  */
+.circle_1{
+    width: 25px;
+        height: 25px;
+        /* background-color:red; */
+        margin: 0 auto 50px auto;
+        position: relative;
+        border-radius: 50%;
+}
+.circle_1::after{
+    content: "";
+    position: absolute;
+    top: -1200%;
+    right: 600%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+.circle_1::before {
+    content: "";
+    position: absolute;
+    top: -1200%;
+    left: 600%;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/* вторые два красных круга */
+.circle_2 {
+    width: 25px;
+    height: 25px;
+    /* background-color:red; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.circle_2::after {
+    content: "";
+    position: absolute;
+    top: -1300%;
+    right: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+.circle_2::before {
+    content: "";
+    position: absolute;
+    top: -1300%;
+    left: 100%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/* третий красный груг */
+.circle_3 {
+    width: 25px;
+    height: 25px;
+    /* background-color:red; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.circle_3::after {
+    content: "";
+    position: absolute;
+    top: -1800%;
+    right: 400%;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+}
+.figure_1{
+    width: 130px;
+    height: 40px;
+    /* background-color:red; */
+    margin: 0 auto 50px auto;
+    position: relative;    
+}
+.figure_1::after {
+    content: "";
+    position: absolute;
+    top: -500%;
+    right: 60%;
+    width: 125px;
+    height: 40px;
+    background-color: red;
+}
+.figure_1::before {
+    content: "";
+    position: absolute;
+    top: -500%;
+    left: 55%;
+    width: 130px;
+    height: 40px;
+    background-color:red;
+}
+
+
+/* фигура 2 */
+.figure_2 {
+    width: 85px;
+    height: 51px;
+    background-color:red;
+    margin: -200px auto 50px auto;
+    position: relative;
+}
+.figure_2 p {
+    padding: 15px;  
+}
+
+
+/* прозрачные круги_1 */
+.circle_4_one_kolor {
+    width: 25px;
+    height: 25px;
+    /* background-color:black; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.circle_4_one_kolor::after {
+    content: "";
+    position: absolute;
+    top: -2110%;
+    right: 450%;
+    width: 22px;
+    height: 21px;
+    background-color: rgba(242, 238, 238, 0.5);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.circle_4_one_kolor::before {
+    content: "";
+    position: absolute;
+    top: -2110%;
+    left: -347%;
+    width: 22px;
+    height: 21px;
+    background-color: rgba(242, 238, 238, 0.5);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+
+/* прозрачные круги_2 */
+.circle_5_one_kolor {
+    width: 25px;
+    height: 25px;
+    /* background-color:black; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.circle_5_one_kolor::after {
+    content: "";
+    position: absolute;
+    top: -1110%;
+    right: -550%;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(242, 238, 238, 0.5);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.circle_5_one_kolor::before {
+    content: "";
+    position: absolute;
+    top: -2430%;
+    left: 647%;
+    width: 22px;
+    height: 21px;
+    background-color: rgba(242, 238, 238, 0.5);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+
+/* красный и черный круг */
+.circle_6_red_black {
+    width: 25px;
+    height: 25px;
+    /* background-color:black; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.circle_6_red_black::after {
+    content: "";
+    position: absolute;
+    top: -2700%;
+    right: -626%;
+    width: 23px;
+    height: 21px;
+    background-color:red;
+    border-radius: 50%;
+}
+.circle_6_red_black::before {
+    content: "";
+    position: absolute;
+    top: -1260%;
+    left: -550%;
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/* большие круги красный и зеленый */
+.red_grau_circle {
+    width: 25px;
+    height: 25px;
+    /* background-color:black; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.red_grau_circle::before {
+    content: "";
+    position: absolute;
+    top: -600%;
+    right: -600%;
+    width: 84px;
+    height: 81px;
+    background-color: red;
+    border-radius: 50%;
+}
+.red_grau_circle::after {
+    content: "";
+    position: absolute;
+    top: -350%;
+    left: 300%;
+    width: 84px;
+    height: 81px;
+    background-color: #C7C7C7;;
+    border-radius: 50%;
+}
+
+
+/* круг зеленый и без цвета  */
+.one_color_green_circle {
+    width: 25px;
+    height: 25px;
+    /* background-color:black; */
+    margin: 0 auto 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+.one_color_green_circle::before {
+    content: "";
+    position: absolute;
+    top: -575%;
+    right: -700%;
+    width: 84px;
+    height: 81px;
+    background-color: green;
+    border-radius: 50%;
+}
+.one_color_green_circle::after {
+    content: "";
+    position: absolute;
+    top: -800%;
+    left: 550%;
+    width: 84px;
+    height: 81px;
+    background-color: rgba(242, 238, 238, 0.5);
+    border: 1px solid blue;
+    border-radius: 50%;
+}
