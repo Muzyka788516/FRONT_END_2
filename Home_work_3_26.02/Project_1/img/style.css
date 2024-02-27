@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* навигационное меню */
+.nav_bar{
+/* max-width: 1161px; */
+width: 1172px;
+height: 50px;
+background-color: #34495E;
+padding-left: 441px;
+display: flex;
+gap: 50px;
+padding-top: 10px;
+}
+.menu{
+background-color: transparent;
+border-color: white;
+color: white;
+width: 89px;
+height: 22px;
+font-size: 15px;  
+}
+/*  */
+.title{
+width: 328px;
+height: 43px;  
+}
+h1{
+text-align: center;
+padding-left: 515px;
+padding-top: 50px;
+font-size: 30px;
+}
+/* секции */
+.image{
+padding-top: 10px;
+padding-left: 50px;
+}
+img{
+width: 100px;
+height: 152px;  
+}
+.section_2{
+display: grid;
+grid-template-columns:repeat(3, 228px) ;
+grid-template-rows: repeat(2, 314px);
+padding-top: 110px;
+grid-gap: 50px;
+padding-left: 193px;
+}
+.cards{
+width: 228px;
+height: 314px;
+border: 1px solid black;  
+}
+.text{
+width: 228px;
+height: 104px;
+top: 386px;
+padding: 20px;
+font-size: 15px;
+}
+p{
+text-align: left;
+}
+/*  */
+button{
+width: 196px;
+height: 29px;
+left: 10px;
+background-color: transparent;   
+font-size: 15px;
+}
+.btn{
+padding-left: 15px;
+}
+/* footer */
+.footer{
+width: 1172px;
+height: 50px;
+background-color: #34495E;
+text-align: center;
+display: flex;
+justify-content: space-around;
+padding-top: 10px; 
+}
+.footer p{
+color: white;
+size: 15px;
+}
+/* адаптив, медиа запросы */
+@media(max-width:1160px){
+.nav_bar{
+background-color: red;
+width: 1172px;
+height: 40px;
+}
+.menu{
+width: 79px;
+height: 17px;
+font-size: 10px;
+}
+}
+@media(max-width:1160px){
+h1{
+font-size: 20px;
+}
+}
+@media(max-width:1160px){
+.section_2{
+grid-template-columns: repeat(2, 200px);
+padding-left: 300px;
+}
+img{
+width: 60px;
+height: 100px;
+}
+.text{
+width: 190px;
+height: 75px;
+font-size: 10px;
+padding: 30px;
+}
+.cards{
+width: 190px;
+height:290px;
+}
+.btn button{
+width: 126px;
+height: 39px;
+margin-top: 40px;
+font-size: 10px;
+margin-left: 20px;
+}
+}
+@media(max-width:1160px){
+.footer{
+background-color: red;
+width: 1172px;
+height: 30px;
+margin-top: 20px;
+}
+.footer p{
+font-size: 12px;
+}
+}
+/* Не знаю как структуроровать код чтоб было красиво, поэтому все пробелы удаляла вручную  */
+
