@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* random_users */
+.random_users_block {
+    width: 1500px;
+    margin: 60px;
+    margin-right: 50px;
+    background-color: rgb(209, 203, 203);
+    border: 1px solid #dee2e6;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.random_users_block h2 {
+    color: #ff0000;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 550px;
+}
+.random_users_image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.random_user_img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.random_users_info {
+    text-align: center;
+}
+.random_users_info p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* random_cats */
+
+.random_cats_block {
+    width: 500px;
+    margin: 50px auto;
+    margin-left: 90px;
+    background-color: #d1cbcb;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.random_cats_block h2 {
+    color: #ff0000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.random_cats_image {
+    margin-bottom: 20px;
+}
+
+.random_cat_image {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.random_cats_info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+/* random_jokes */
+.random_jokes {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #e49c4a, #85485e);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #434141;
+    max-width: 600px;
+}
+
+.random_jokes_block {
+    margin-bottom: 20px;
+}
+
+.random_jokes_block h2 {
+    font-size: 32px;
+    color: #e8dddd;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.random_jokes_text p {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+/* random_coin */
+.random_coin {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.random_box_coin {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.current_rate {
+    font-size: 36px;
+    font-weight: bold;
+    color: #009688;
+    /* Цвет можно изменить на свой */
+}
+
+p {
+    margin: 0;
+}
+
+/*  nasa_satellite */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.nasa_satellite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nasa_box_satellite {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.nasa_box_satellite h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.satellite_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.satellite_info p {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.satellite_info p:nth-child(odd) {
+    background-color: #e9e9e9;
+}
+
+.satellite_info p:last-child {
+    margin-bottom: 0;
+}
+/* randoms_quote */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9f9b9b;
+}
+
+.randoms_quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quotes {
+    background-color: #eed2d2;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.quotes h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #080808;
+}
+
+.quotes_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.quotes_info p {
+    padding: 15px;
+    background-color: #cfc6c6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quotes_info p:nth-child(odd) {
+    background-color: #e57373;
+}
+
+.quotes_info p:last-child {
+    margin-bottom: 0;
+}
