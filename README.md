@@ -3,3 +3,6 @@ hello
 world
 hi 
 name
+my 
+name
+alina
